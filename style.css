@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.board {
+    display: grid;
+    background-image: url(images/tumblr_92dd8cc517be39aaf3fb6eb9499be737_f4063ce0_640.gif);
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 8rem;
+    border: solid;
+    height: 8rem;
+    width: 8rem;
+    background-color: rgba(0, 0, 0, 0.158);
+}
